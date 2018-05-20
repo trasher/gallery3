@@ -189,6 +189,10 @@ modules/gallery/views/form_uploadify.html.php                33  DIRTY_JS url::f
 modules/gallery/views/form_uploadify.html.php                34  DIRTY_JS $simultaneous_upload_limit
 modules/gallery/views/form_uploadify.html.php                35  DIRTY_JS $size_limit_bytes
 modules/gallery/views/form_uploadify.html.php                164 DIRTY_ATTR request::protocol()
+modules/gallery/views/form_dropzone.html.php                 18  DIRTY_JS $simultaneous_upload_limit
+modules/gallery/views/form_dropzone.html.php                 19  DIRTY_JS implode(",",$extensions)
+modules/gallery/views/form_dropzone.html.php                 20  DIRTY_JS $size_limit_megs
+modules/gallery/views/form_dropzone.html.php                 23  DIRTY_JS url::site("uploader/add_photo/{$album->id}")
 modules/gallery/views/in_place_edit.html.php                 2   DIRTY    form::open($action,array("method"=>"post","id"=>"g-in-place-edit-form","class"=>"g-short-form"))
 modules/gallery/views/in_place_edit.html.php                 3   DIRTY    access::csrf_form_field()
 modules/gallery/views/in_place_edit.html.php                 6   DIRTY    form::input("input",$form["input"]," class=\"textbox\"")
